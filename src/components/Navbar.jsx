@@ -1,3 +1,4 @@
+import image1 from "../assets/nt.png";
 import { useState } from "react";
 
 function Navbar() {
@@ -11,8 +12,10 @@ function Navbar() {
     <header className="navbar">
       <div className="container nav-container">
 
-        <a href="#home" className="logo" onClick={closeMenu}>
-          Krish<span>.</span>
+        <a href="#home" className="sport-logo" onClick={closeMenu}>
+         <img src={image1} alt="Krish" className="sp-logo" />
+          <span className="sp-logo"></span>
+          Kris<span>.</span>
         </a>
 
         <button
@@ -41,9 +44,7 @@ function Navbar() {
             Projects
           </a>
 
-          <a href="#testimonials" onClick={closeMenu}>
-            Testimonials
-          </a>
+         
 
           <a href="#contact" onClick={closeMenu}>
             Contact

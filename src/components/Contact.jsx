@@ -58,7 +58,7 @@ function Contact() {
 
             <div className="contact-item">
               <strong>Email</strong>
-              <span>  0000000000000000000   </span>
+              <span>  tdkrishani@gmail.com </span>
             </div>
 
             <div className="contact-item">
@@ -68,7 +68,7 @@ function Contact() {
 
             <div className="contact-item">
               <strong>GitHub</strong>
-              <span>github.com/000000000000000</span>
+              <span>https://github.com/Krishanitd-dev</span>
             </div>
 
           </div>
@@ -102,7 +102,7 @@ function Contact() {
               type="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="0000000000000000000000000000@email.com"
+              placeholder="tdkrishani@email.com"
               required
             />
 

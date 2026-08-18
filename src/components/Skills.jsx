@@ -15,9 +15,10 @@ function Skills() {
       technologies: [
         "Python",
         "FastAPI",
-        "REST APIs",
+        "RESTful APIs",
         "C#",
-        ".NET"
+        ".NET",
+        ".NET MAUI"
       ]
     },
     {
@@ -26,29 +27,21 @@ function Skills() {
         "SQLite",
         "MySQL",
         "SQL",
-        "CRUD Operations"
+        "PostgreSQL,"
       ]
     },
     {
       category: "Tools",
       technologies: [
+        "Visual Studio",
+        "VS Code",
         "Git",
         "GitHub",
-        "VS Code",
         "JIRA",
         "Trello"
       ]
     },
-    {
-      category: "AI & APIs",
-      technologies: [
-        "OpenAI API",
-        "LLMs",
-        "NLP",
-        "AI Integration",
-        "API Development"
-      ]
-    },
+    
     {
       category: "Other",
       technologies: [

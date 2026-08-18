@@ -1,7 +1,14 @@
+import profilebanner from "../assets/prof.jpeg";
+import profileImage from "../assets/ph.png";
 function Hero() {
   return (
     <section id="home" className="hero">
-
+      <div className="hero-banner">
+        <img
+          src={profilebanner}
+          alt="Krishani"
+        />
+      </div>
       <div className="container hero-container">
 
         <div className="hero-content">
@@ -15,12 +22,13 @@ function Hero() {
           </h1>
 
           <h2>
-            Full-Stack Developer & IT Professional
+            Full-Stack Developer
           </h2>
 
           <p className="hero-description">
-            I build modern, responsive and user-focused web applications
-            using technologies such as React, JavaScript, Python and FastAPI.
+           I am a passionate and adaptable developer who thrives on learning, solving problems, 
+           and taking on new challenges. I am committed to delivering high-quality work, continuously 
+           developing my skills, and making a positive contribution to every project and team.
           </p>
 
           <div className="hero-buttons">
@@ -57,16 +65,15 @@ function Hero() {
 
         </div>
 
-        <div className="hero-image">
+        <div className="hero-profile">
 
-          <div className="profile-card">
-
-            <div className="profile-placeholder">
-              KD
-            </div>
-
-          </div>
-
+         <div className="profile-card">
+            <img
+              src={profileImage}
+              alt="Krishani"
+              className="profile-photo"
+            />
+        </div>
         </div>
 
       </div>

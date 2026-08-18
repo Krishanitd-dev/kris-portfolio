@@ -3,14 +3,16 @@ function Projects() {
     {
       title: "AI Assistant Web Application",
       description:
-        "A full-stack AI assistant application using React, FastAPI, Python, SQLite and AI API integration.",
+        "A full-stack AI assistant application featuring secure user authentication and AI-powered question answering.",
       technologies: [
-        "React",
-        "FastAPI",
         "Python",
+        "HTML",
+        "CSS",
+        "JavaScript",
         "SQLite"
       ],
-      github: "#",
+      github: "https://github.com/Krishanitd-dev/ai-assistant-web-local",
+             
       demo: "#"
     },
     {
@@ -20,23 +22,25 @@ function Projects() {
       technologies: [
         "Python",
         "FastAPI",
+        "HTML",
+        "CSS",
         "SQLite",
         "JavaScript"
       ],
-      github: "#",
+      github: "https://github.com/Krishanitd-dev/it-helpdesk-ticketing-system",
       demo: "#"
     },
     {
-      title: "Developer Portfolio",
+      title: "Multilingual AI Text Summarizer",
       description:
-        "A responsive personal portfolio website built with React and modern frontend development practices.",
+        "A Python-based application that uses Artificial Intelligence and NLP to analyse lengthy text and generate concise, meaningful summaries.",
       technologies: [
-        "React",
-        "JavaScript",
-        "CSS",
-        "Vite"
+        "Python",
+        "REST API's",
+        "Groq's free API",
+       
       ],
-      github: "#",
+      github: "https://github.com/Krishanitd-dev/ai_text_summarizer",
       demo: "#"
     }
   ];
@@ -48,9 +52,9 @@ function Projects() {
 
         <div className="section-heading">
 
-          <p>MY WORK</p>
+          <p>I enjoy working on personal projects in my spare time.</p>
 
-          <h2>Featured Projects</h2>
+          <h2>My Projects</h2>
 
         </div>
 

@@ -29,21 +29,23 @@ function About() {
             </h3>
 
             <p>
-              I am an IT professional and software developer with experience
-              developing web applications, REST APIs, databases and
+              I am a software developer with experience 
+              in developing web applications, RESTful APIs, databases, and 
               user-focused digital solutions.
             </p>
 
             <p>
-              My development experience includes Python, FastAPI, JavaScript,
-              React, HTML, CSS, SQLite and API integration. I enjoy working
-              across both frontend and backend development.
+              My technical experience includes Python, FastAPI, C#, JavaScript,
+              React, HTML, CSS, SQL, SQLite, and API integration, with experience
+              working across both frontend and backend development.
             </p>
 
             <p>
-              I am particularly interested in full-stack development,
-              artificial intelligence, software engineering and building
-              applications that solve real-world problems.
+              I am particularly interested in full-stack development, artificial
+              intelligence, software engineering, and modern web technologies. 
+              I enjoy building practical applications that solve real-world problems
+              and using personal projects to explore new technologies and continuously
+              strengthen my development skills.
             </p>
 
             <div className="about-details">
@@ -60,7 +62,7 @@ function About() {
 
               <div>
                 <strong>Experience</strong>
-                <span>Software Development</span>
+                <span>Software Development & Testing</span>
               </div>
 
               <div>
