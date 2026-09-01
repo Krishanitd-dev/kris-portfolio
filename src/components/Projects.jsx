@@ -13,7 +13,7 @@ function Projects() {
       ],
       github: "https://github.com/Krishanitd-dev/ai-assistant-web-local",
              
-      demo: "#"
+      
     },
     {
       title: "IT Helpdesk Ticket System",
@@ -28,7 +28,7 @@ function Projects() {
         "JavaScript"
       ],
       github: "https://github.com/Krishanitd-dev/it-helpdesk-ticketing-system",
-      demo: "#"
+     
     },
     {
       title: "Multilingual AI Text Summarizer",
@@ -41,7 +41,7 @@ function Projects() {
        
       ],
       github: "https://github.com/Krishanitd-dev/ai_text_summarizer",
-      demo: "#"
+    
     }
   ];
 
@@ -94,9 +94,9 @@ function Projects() {
                     GitHub
                   </a>
 
-                  <a href={project.demo}>
+                  {/* <a href={project.demo}>
                     Live Demo
-                  </a>
+                  </a> */}
 
                 </div>
 

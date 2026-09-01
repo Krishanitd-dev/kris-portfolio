@@ -269,7 +269,7 @@
 }
 .hero-banner {
   width: 100%;
-  height: 350px;
+  height: 300px;
   overflow: hidden;
   margin-top: 75px;
 }
@@ -289,18 +289,22 @@
 }
 
 .about-grid {
-  display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: 70px;
-  align-items: center;
+  display: block;
+  /* grid-template-columns: 0.8fr 1.2fr; */
+  /* gap: 70px; */
+  /* align-items: center; */
 }
-
+.about-content {
+  max-width: 950px;
+  margin: 0 auto;
+}
+ /*
 .about-image {
   display: flex;
   justify-content: center;
 }
 
-.about-placeholder {
+ .about-placeholder {
   width: 350px;
   height: 420px;
   border-radius: 20px;
@@ -308,7 +312,7 @@
     135deg,
     #e0e7ff,
     #f5f3ff
-  );
+  ); 
 
   display: flex;
   align-items: center;
@@ -316,7 +320,7 @@
   color: var(--accent);
   font-size: 30px;
   font-weight: 800;
-}
+} */
 
 .about-content h3 {
   font-size: 30px;

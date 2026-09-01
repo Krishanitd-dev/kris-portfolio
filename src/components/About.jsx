@@ -11,9 +11,9 @@ function About() {
           <h2>About Me</h2>
 
         </div>
-
+      
         <div className="about-grid">
-
+{/* Technology Card 
           <div className="about-image">
 
             <div className="about-placeholder">
@@ -21,7 +21,7 @@ function About() {
             </div>
 
           </div>
-
+*/}
           <div className="about-content">
 
             <h3>
@@ -41,9 +41,8 @@ function About() {
             </p>
 
             <p>
-              I am particularly interested in full-stack development, artificial
-              intelligence, software engineering, and modern web technologies. 
-              I enjoy building practical applications that solve real-world problems
+              I am interested in software development, full-stack development, artificial 
+              intelligence, and modern web technologies. I enjoy building practical applications that solve real-world problems
               and using personal projects to explore new technologies and continuously
               strengthen my development skills.
             </p>
@@ -56,8 +55,8 @@ function About() {
               </div>
 
               <div>
-                <strong>Focus</strong>
-                <span>Full-Stack Development</span>
+                <strong>Role</strong>
+                <span>Software Developer</span>
               </div>
 
               <div>

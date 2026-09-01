@@ -21,9 +21,9 @@ function Hero() {
             Hi, I'm <span>Krishani</span>
           </h1>
 
-          <h2>
+          {/* <h2>
             Full-Stack Developer
-          </h2>
+          </h2> */}
 
           <p className="hero-description">
            I am a passionate and adaptable developer who thrives on learning, solving problems, 
@@ -46,7 +46,7 @@ function Hero() {
           <div className="social-links">
 
             <a
-              href="https://github.com/"
+              href="https://github.com/Krishanitd-dev"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -54,7 +54,7 @@ function Hero() {
             </a>
 
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/krishani-m-309780145"
               target="_blank"
               rel="noopener noreferrer"
             >

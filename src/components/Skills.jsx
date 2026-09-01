@@ -27,7 +27,7 @@ function Skills() {
         "SQLite",
         "MySQL",
         "SQL",
-        "PostgreSQL,"
+        "PostgreSQL"
       ]
     },
     {
