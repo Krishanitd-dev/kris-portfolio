@@ -1,3 +1,6 @@
+import helpdkimg from "../assets/helpdesk.jpeg";
+import aiastimg from "../assets/ai-ast.jpg";
+import textimg from "../assets/text.jpg";
 function Projects() {
   const projects = [
     {
@@ -12,8 +15,8 @@ function Projects() {
         "SQLite"
       ],
       github: "https://github.com/Krishanitd-dev/ai-assistant-web-local",
-             
-      
+      image: aiastimg
+
     },
     {
       title: "IT Helpdesk Ticket System",
@@ -28,8 +31,7 @@ function Projects() {
         "JavaScript"
       ],
       github: "https://github.com/Krishanitd-dev/it-helpdesk-ticketing-system",
-     
-    },
+      image: helpdkimg   },
     {
       title: "Multilingual AI Text Summarizer",
       description:
@@ -41,7 +43,7 @@ function Projects() {
        
       ],
       github: "https://github.com/Krishanitd-dev/ai_text_summarizer",
-    
+      image: textimg
     }
   ];
 
@@ -64,11 +66,10 @@ function Projects() {
 
             <article className="project-card" key={project.title}>
 
-              <div className="project-image">
-
-                <span>Project</span>
-
-              </div>
+              <div
+              className="project-image"
+              style={{ backgroundImage: `url(${project.image})` }}>
+             </div>
 
               <div className="project-content">
 
