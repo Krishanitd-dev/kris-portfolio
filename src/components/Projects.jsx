@@ -1,4 +1,4 @@
-import helpdkimg from "../assets/helpdesk.jpeg";
+import helpdkimg from "../assets/helpdesk.jpg";
 import aiastimg from "../assets/ai-ast.jpg";
 import textimg from "../assets/text.jpg";
 function Projects() {
