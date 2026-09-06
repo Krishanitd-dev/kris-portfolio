@@ -24,10 +24,11 @@ function Skills() {
     {
       category: "Database",
       technologies: [
-        "SQLite",
         "MySQL",
-        "SQL",
-        "PostgreSQL"
+        "SQLite",
+        "PostgreSQL",
+        "SQL"
+        
       ]
     },
     {

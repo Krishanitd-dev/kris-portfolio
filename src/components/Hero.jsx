@@ -1,4 +1,4 @@
-import profilebanner from "../assets/prof.jpeg";
+import profilebanner from "../assets/prof.jpg";
 import profileImage from "../assets/ph.png";
 function Hero() {
   return (
@@ -14,22 +14,29 @@ function Hero() {
         <div className="hero-content">
 
           <p className="hero-subtitle">
-            SOFTWARE DEVELOPER
+            SOFTWARE DEVELOPER | FULL-STACK DEVELOPER
           </p>
 
           <h1>
             Hi, I'm <span>Krishani</span>
           </h1>
+          <p className="hero-description">
+            <b> Software Developer building practical web applications, APIs and AI-powered solutions. </b>
+            <p> I develop reliable and user-focused software using technologies
+            such as Python, C#, JavaScript, React, FastAPI and SQL.
+             I enjoy solving problems, learning new technologies and turning ideas into practical applications.
+          </p>  </p>
 
           {/* <h2>
             Full-Stack Developer
           </h2> */}
 
-          <p className="hero-description">
+
+          {/* <p className="hero-description">
            I am a passionate and adaptable developer who thrives on learning, solving problems, 
            and taking on new challenges. I am committed to delivering high-quality work, continuously 
            developing my skills, and making a positive contribution to every project and team.
-          </p>
+          </p> */}
 
           <div className="hero-buttons">
 

@@ -15,7 +15,7 @@ function Navbar() {
         <a href="#home" className="sport-logo" onClick={closeMenu}>
          <img src={image1} alt="Krish" className="sp-logo" />
           <span className="sp-logo"></span>
-          Kris<span>.</span>
+           <b className="nav-name">Krishani </b>
         </a>
 
         <button

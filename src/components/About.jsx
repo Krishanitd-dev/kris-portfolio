@@ -36,15 +36,15 @@ function About() {
 
             <p>
               My technical experience includes Python, FastAPI, C#, JavaScript,
-              React, HTML, CSS, SQL, SQLite, and API integration, with experience
+              React, HTML, CSS, SQL, PostgreSQL, MySQL, SQLite, and API integration, with experience
               working across both frontend and backend development.
             </p>
 
             <p>
-              I am interested in software development, full-stack development, artificial 
-              intelligence, and modern web technologies. I enjoy building practical applications that solve real-world problems
-              and using personal projects to explore new technologies and continuously
-              strengthen my development skills.
+              I am interested in frontend and full-stack development, artificial intelligence, 
+              and modern web technologies. I enjoy creating responsive, user-focused interfaces as 
+              well as building practical applications that solve real-world problems. Through personal projects, 
+              I explore new technologies and continuously strengthen my development skills.
             </p>
 
             <div className="about-details">
@@ -61,7 +61,7 @@ function About() {
 
               <div>
                 <strong>Experience</strong>
-                <span>Software Development & Testing</span>
+                <span>Software Development | Frontend & Backend Development | Testing</span>
               </div>
 
               <div>

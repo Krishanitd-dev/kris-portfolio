@@ -102,7 +102,7 @@ function Contact() {
               type="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="tdkrishani@email.com"
+              placeholder="  "
               required
             />
 
