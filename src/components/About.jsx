@@ -66,7 +66,7 @@ function About() {
 
               <div>
                 <strong>Education</strong>
-                <span>Master of Information Technology</span>
+                <span>Bachelor of Information Technology</span>
               </div>
 
             </div>
