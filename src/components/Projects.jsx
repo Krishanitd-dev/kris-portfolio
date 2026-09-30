@@ -1,8 +1,26 @@
+import { useRef } from "react";
 import helpdkimg from "../assets/helpdesk.jpg";
 import aiastimg from "../assets/ai-ast.jpg";
 import textimg from "../assets/text.jpg";
+import handoverimg from "../assets/h_hub.png";
+
 function Projects() {
   const projects = [
+    {
+      title: "Digital Handover Hub",
+      description:
+        "A web application for managing projects, tracking progress, and coordinating team handovers and takeovers.",
+        technologies: [
+    "C#",
+    "ASP.NET Core",
+    "React",
+    "PostgreSQL",
+    "Entity Framework Core",
+    "JavaScript"
+      ],
+      github: "https://github.com/Krishanitd-dev/digital_handover_hub",
+        image: handoverimg
+    },
     {
       title: "AI Assistant Web Application",
       description:
@@ -46,6 +64,19 @@ function Projects() {
       image: textimg
     }
   ];
+  const projectsContainerRef = useRef(null);
+      const scrollProjects = (direction) => {
+  if (projectsContainerRef.current) {
+    const scrollAmount = 350;
+
+    projectsContainerRef.current.scrollBy({
+      left: direction === "left" ? -scrollAmount : scrollAmount,
+      behavior: "smooth",
+        });
+      }
+    };
+
+
 
   return (
     <section id="projects" className="section projects">
@@ -60,33 +91,35 @@ function Projects() {
 
         </div>
 
-        <div className="projects-grid">
+        
 
-          {projects.map((project) => (
+              <div className="projects-carousel">
+              <button
+              className="carousel-arrow carousel-arrow-left"
+                onClick={() => scrollProjects("left")}
+                >
+                   &lsaquo;
+                </button>
 
-            <article className="project-card" key={project.title}>
+                <div className="projects-grid" ref={projectsContainerRef}>
+              {projects.map((project) => (
+                <article className="project-card" key={project.title}>
+                  <div
+                  className="project-image"
+                  style={{ backgroundImage: `url(${project.image})`,
+                 }}
+                    >
+                  </div>
 
-              <div
-              className="project-image"
-              style={{ backgroundImage: `url(${project.image})` }}>
-             </div>
-
-              <div className="project-content">
-
-                <h3>{project.title}</h3>
-
-                <p>{project.description}</p>
-
-                <div className="project-technologies">
-
-                  {project.technologies.map((technology) => (
-
+                <div className="project-content">
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                  <div className="project-technologies">
+                   {project.technologies.map((technology) => (
                     <span key={technology}>
-                      {technology}
-                    </span>
-
+                   {technology}
+                   </span>
                   ))}
-
                 </div>
 
                 <div className="project-links">
@@ -108,9 +141,14 @@ function Projects() {
           ))}
 
         </div>
-
+        <button
+          className="carousel-arrow carousel-arrow-right"
+            onClick={() => scrollProjects("right")}
+              >
+            &rsaquo;
+          </button>
+          </div>
       </div>
-
     </section>
   );
 }
