@@ -60,13 +60,7 @@ function Hero() {
               GitHub
             </a>
 
-            <a
-              href="https://www.linkedin.com/in/krishani-m-309780145"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LinkedIn
-            </a>
+            
 
           </div>
 
